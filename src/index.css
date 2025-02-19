@@ -1,0 +1,25 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animation : Spin Logo */
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.spin {
+	animation: spin 40s linear infinite;
+}
+
+/* smooth scroll */
+html {
+	scroll-behavior: smooth;
+}
